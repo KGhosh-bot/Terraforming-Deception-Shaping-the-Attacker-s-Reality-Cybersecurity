@@ -1,0 +1,21 @@
+{
+      "Cloud": {"name": "aws","image":"amazon/aws-cli"},
+      "SaaS_Applications": {"name": "redis", "image":"bitnami/redis"},
+      "Internal_Channel": {"name":"tomcat", "image":"tomcat"},
+      "API_Management": {"name":"kong","image":"kong:latest"},
+      "Enterprise_User": {"name":"postgresql","image":"bitnami/postgresql"},
+      "Edge_Services": {"name":"traefik", "image": "traefik"},
+      "Cognitive_Analytics_Repository": {"name":"nginx","image":"nginx:latest"},
+      "Streaming_Computing": {"name":"kafka","image":"bitnami/kafka"},
+      "Enterprise_Data": {"name":"mysql", "image":"mysql"},
+      "Data_Warehouse": {"name":"prestodb", "image":"prestodb:latest"},
+      "Security": {"name": "clamav", "image": "clamav/clamav"},
+      "Firewall": {"name": "kube","image":"cloudnativelabs/kube-router"},
+      "Systems_Management": {"name": "ubustu", "image":"ubuntu: latest"},
+      "Apache_Kafka": {"name": "cp_kafka", "image": "confluentinc/cp-kafka"},
+      "MQ": {"name": "mq", "image": "ibmcom/mq"},
+      "Apache_Spark" : {"name": "spark", "image": "apache/spark"},
+      "Enterprise_User_Directory": {"name": "openldap", "image": "bitnami/openldap"}
+
+  }
+  
