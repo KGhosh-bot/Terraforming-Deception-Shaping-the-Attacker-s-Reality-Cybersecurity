@@ -18,13 +18,13 @@ This diagram visually represents the desired fake infrastructure with six differ
 ## Docker Image Mapping
 The parsed information is used to map detected components to specific Docker images. This mapping is achieved by loading a configuration file (config.json), which associates each component type with a corresponding Docker image configuration.
 <p align="center">
-    <img src="images/image mappings.png", style="width: 400px; height: 400px;"/></center>
+    <img src="images/image mappings.png", style="width: 600px; height: 300px;"/></center>
 </p>
 
 ## Terraform Plan Generation
 The extracted component information and Docker image mappings are used to automatically generate Terraform resource configurations (main.tf) that includes resource blocks for each detected component. The configuration specifies the necessary attributes and configurations, utilizing Terraform's declarative language HashiCorp Configuration Language (HCL). 
 <p align="center">
-    <img src="images/terraform plan generation.png", style="width: 400px; height: 400px;"/></center>
+    <img src="images/terraform plan generation.png", style="width: 600px; height: 300px;"/></center>
 </p>
 
 
