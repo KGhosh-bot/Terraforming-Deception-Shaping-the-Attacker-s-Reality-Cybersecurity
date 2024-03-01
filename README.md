@@ -6,13 +6,13 @@ By creating fake services and components that appear as valuable targets to atta
 This project develops a Fake Architecture Orchestrator using Terraform and containerized Docker environments for cyber security deception, dynamically generating infrastructure based on draw.io diagrams and custom XML parsing. This automates deployment, streamlines resource management and misleads attackers through strategic deception.
 
 <p align="center">
-    <img src="images/project Ingredients.png", style="width: 400px; height: 400px;"/></center>
+    <img src="images/project Ingredients.png", style="width: 500px; height: 400px;"/></center>
 </p>
 
 ## Architecture Diagram
 This diagram visually represents the desired fake infrastructure with six different  components and connections. A custom XML parser extracts component information, including names, types, and any associated attributes, from the draw.io diagram. 
 <p align="center">
-    <img src="images/fake architecture_small.png", style="width: 600px; height: 300px;"/></center>
+    <img src="images/fake architecture_small.jpg", style="width: 600px; height: 300px;"/></center>
 </p>
 
 ## Docker Image Mapping
