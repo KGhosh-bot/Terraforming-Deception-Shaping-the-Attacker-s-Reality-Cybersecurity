@@ -12,7 +12,7 @@ This project develops a Fake Architecture Orchestrator using Terraform and conta
 ## Architecture Diagram
 This diagram visually represents the desired fake infrastructure with six different  components and connections. A custom XML parser extracts component information, including names, types, and any associated attributes, from the draw.io diagram. 
 <p align="center">
-    <img src="images/fake architecture_small.png", style="width: 400px; height: 400px;"/></center>
+    <img src="images/fake architecture_small.png", style="width: 600px; height: 300px;"/></center>
 </p>
 
 ## Docker Image Mapping
